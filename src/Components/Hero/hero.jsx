@@ -10,13 +10,13 @@ const Hero = () => {
         <div className='flex flex-col justify-center items-center'>
           <div>
 
-            <picture className='relative'>
-             <source media='(min-width: 1024px)' srcSet={headerDesktop}/>
+            <picture>
+             <source media='(min-width: 768px)' srcSet={headerDesktop}/>
              <img src={headerMobile} />
             </picture>
             
-            <img src={arrowDown} alt="arrow-down" className='absolute left-[45%] top-[37%] lg:left-1/2 lg:top-[55%]'/>
-            <h1 className='absolute top-28 translate-y-1/2 lg:top-48 lg:translate-x-1/3 uppercase text-white lg:text-7xl text-4xl text-center leading-loose tracking-widest'>We are creatives</h1>
+            <img src={arrowDown} alt="arrow-down" className='absolute -translate-x-1/2 -translate-y-1/2 top-[75%] md:top-[55%] xl:top-[60%] left-1/2'/>
+            <h1 className='absolute md:w-full -translate-x-1/2 -translate-y-1/2 md:-translate-y-[180%] lg:-translate-y-[300%] top-1/2 left-1/2 uppercase text-white xl:text-7xl lg:text-5xl text-4xl text-center leading-loose tracking-widest'>We are creatives</h1>
           
           </div>
         </div>
