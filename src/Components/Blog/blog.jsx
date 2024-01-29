@@ -15,13 +15,21 @@ const Blog = () => {
   return (
     <>
       <div>
-         <section className='desktop lg:grid lg:grid-cols-4 lg:grid-rows-1 hidden'>
+         <section className='desktop lg:grid lg:grid-cols-4 hidden'>
             <img src={imgDesktopFirst} alt="milkbottles" />
             <img src={imgDesktopSecond} alt="orange" /> 
             <img src={imgDesktopThird} alt="cone" />
             <img src={imgDesktopFourth} alt="sugarcubes" />
          </section>
-         <section className='mobile lg:hidden grid grid-cols-2 grid-rows-2 '>
+
+         <section className='tablet lg:hidden md:grid md:grid-cols-2 hidden'>
+            <img src={imgDesktopFirst} alt="milkbottles" />
+            <img src={imgDesktopSecond} alt="orange" /> 
+            <img src={imgDesktopThird} alt="cone" />
+            <img src={imgDesktopFourth} alt="sugarcubes" />
+         </section>
+
+         <section className='mobile lg:hidden md:hidden grid grid-cols-2'>
             <img src={imgMobileFirst} alt="milkbottles" />
             <img src={imgMobileSecond} alt="orange" /> 
             <img src={imgMobileThird} alt="cone" />
