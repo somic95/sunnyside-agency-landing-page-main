@@ -8,8 +8,7 @@ export default {
     screens: {
       'xl': '1440px',
       'lg': '1024px',
-      'md': '768px',
-      '': '375px'
+      'md': '768px'
     },
     extend: {},
   },
