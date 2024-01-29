@@ -13,11 +13,11 @@ const Article = () => {
     <>
       <div className='bg-white'>
         <section className='lg:flex lg:flex-row-reverse'>
-          <picture className='lg:w-1/2'>
+          <picture className='lg:w-1/2 flex flex-col justify-center '>
             <source media='(min-width: 1024px)' srcSet={desktopEgg}/>
             <img src={mobileEgg} />
           </picture>
-          <article className='lg:w-1/2 lg:p-40 py-16 flex flex-col gap-10'>
+          <article className='lg:w-1/2 lg:p-14 xl:p-40 py-16 flex flex-col gap-10'>
             <h1 className='lg:text-5xl text-3xl lg:text-left text-center lg:px-0 px-16'>Transform your brand</h1>
             <p className='text-[#818498] lg:text-left text-center px-8 lg:px-0'>We are a full-service creative agency specializing in helping brands grow fast. 
                 Engage your clients through compelling visuals that do most of the marketing for you.</p>
@@ -26,11 +26,11 @@ const Article = () => {
         </section>
 
         <section className='lg:flex'>
-          <picture className='lg:w-1/2'>
+          <picture className='lg:w-1/2 flex flex-col justify-center'>
             <source media='(min-width: 1024px)' srcSet={desktopGlass}/>
             <img src={mobileGlass} />
           </picture>
-          <article className='lg:w-1/2 lg:p-40 py-16 flex flex-col gap-10'>
+          <article className='lg:w-1/2 lg:p-14 xl:p-40 py-16 flex flex-col gap-10'>
             <h1 className='lg:text-5xl text-3xl lg:text-left text-center lg:px-0 px-16'>Stand out to the right audience</h1>
             <p className='text-[#818498] lg:text-left text-center px-8 lg:px-0'>Using a collaborative formula of 
                     designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
@@ -40,8 +40,8 @@ const Article = () => {
 
         <section className='lg:flex'>
           <div>
-            <picture className='lg:w-1/2 h-screen'>
-              <source media='(min-width: 1024px)' srcSet={desktopGraphic}/>
+            <picture className='lg:w-1/2 h-screen max-[1023px]:flex max-[1023px]:flex-col max-[1023px]:justify-center'>
+              <source media='(min-width: 768px)' srcSet={desktopGraphic}/>
               <img src={mobileGraphic} />
             </picture>
             <div className='flex flex-col gap-10 -mt-48 pb-10 lg:pb-0 text-center text-[#25564b]'>
@@ -55,8 +55,8 @@ const Article = () => {
           </div>
 
           <div>
-            <picture className='lg:w-1/2'>
-              <source media='(min-width: 1024px)' srcSet={desktopPhotoGr}/>
+            <picture className='lg:w-1/2 max-[1023px]:flex max-[1023px]:flex-col max-[1023px]:justify-center'>
+              <source media='(min-width: 768px)' srcSet={desktopPhotoGr}/>
               <img src={mobilePhotoGr} />
             </picture>
             <div className='flex flex-col gap-10 -mt-48  text-center text-[#19536b]'>
