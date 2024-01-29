@@ -35,14 +35,14 @@ const navbar = () => {
             </button>
             {isOpen && (
               <div>
-                <ul className='nav-menu-mobile absolute bg-white flex flex-col items-center justify-center py-8 px-16 gap-6 left-14 top-32'>
+                <ul className='nav-menu-mobile absolute bg-white flex flex-col items-center justify-center py-8 px-16 gap-6 -translate-x-[91.6%] translate-y-[24%]'>
                   <li className='text-[#818498]'>About</li>
                   <li className='text-[#818498]'>Services</li>
                   <li className='text-[#818498]'>Projects</li>
                   <h4 className='bg-yellow-400 hover:bg-opacity-50 hover:text-white rounded-full px-7 py-4 uppercase'>Contact</h4>
                 </ul>
 
-                <div class="triangle absolute top-[6rem] right-[3.2rem] lg:hidden"></div>
+                <div class="triangle lg:hidden absolute -translate-x-1/4 translate-y-[55%]"></div>
               </div>
             )}
           </div>
