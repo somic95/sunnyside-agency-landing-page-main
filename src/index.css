@@ -25,11 +25,7 @@ ul li {
 .triangle {
     width: 0;
     height: 0;
-    border-top: 50px solid transparent;
-    border-right: 50px solid #ffffff;
-    border-bottom: 50px solid transparent;
+    border-top: 30px solid transparent;
+    border-right: 30px solid #ffffff;
+    border-bottom: 30px solid transparent;
   }
-
-@media (min-width: 1024px) {
-    
-}
